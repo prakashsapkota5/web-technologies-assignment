@@ -4,105 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <table width="100%" border="1" cellspacing="0" cellpadding="30">
-            <tr>
-        
-                <th><img src="images/mountain-climbing.png" alt="" height="80" width="80"></th>
-                <th><h3> <a href="index.html">Home</a></h3></th>
-                <th> <h3> <a href="Trekking routes.html">Trekking Routes</a></h3></th>
+        <div class="header-table">
+            <div class="header-item">
+                <img src="images/mountain-climbing.png" alt="Logo" height="80" width="80">
+            </div>
+            <div class="header-item">
+                <h3><a href="index.html">Home</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="Trekkingroutes.html">Trekking Routes</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="gearstore.html">Gear Store</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="contact.html">Contact Us</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="#aboutus">About Us</a></h3>
+            </div>
+            <div class="header-item">
+                <button><img src="magnifying-glass.png" alt="Search" height="30"></button>
+                <input type="text" placeholder="Search region, routes, gears" id="search">
+            </div>
+        </div>
+    </header>
+    <form action="" class="contact-form">
+        <div class="form-row">
+            <h2>Contact Us For More Information</h2>
+        </div>
+        <div class="form-row">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" required placeholder="full name">
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="abc@gmail.com">
+        </div>
+        <div class="form-row">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="address">Address</label>
+            <input type="text" id="address" required placeholder="full address">
+        </div>
+        <div class="form-row">
+            <label for="age">Age</label>
+            <input type="number" id="age" required placeholder="age">
+        </div>
+        <div class="form-row">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" required placeholder="98....">
+        </div>
+        <div class="form-row">
+            <label for="message">Message Us</label>
+            <textarea name="text" id="message" placeholder="Type your Suggestions here"></textarea>
+        </div>
+        <div class="form-row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
 
-                <th><h3><a href="gearstore.html">Gear store</a></h3></th>
-                <th><h3><a href="contact.html">Contact US</a></h3></th>
-                <th><h3><a href="#aboutus">About us</a></h3></th>
-                <th>        <button><img src="magnifying-glass.png" alt="" height="30"></button>
-                    <input type="text" placeholder="search region,routes,gears" id="search"></th>
-            </tr>
-        
-        </header>
-        </table>
-
-<form action="">
-    <table border="0" cellspacing="30">
-        <tr>
-           <th colspan="2"><h2>Contact Us For More Information </h2></th>
-           
-        </tr>
-           <tr>
-               <th>Full Name</th>
-               <th><input type="text" required placeholder="full name"></th>
-           </tr>
-           <tr>
-               <th>Email</th>
-               <th><input type="text" required placeholder="abc@gmail.com"></th>
-           </tr>
-           <tr>
-               <th>Gender</th>
-         <th><select name="gender" id="">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Other">Other</option>
-         </select>
-         </th>
-           <tr>
-               <th>Address</th>
-               <th><input type="text" required placeholder="full address"></th>
-           </tr>
-           <tr>
-               <th>Age</th>
-               <th><input type="text" required placeholder="age"></th>
-           </tr>
-           <tr>
-               <th>Phone Number</th>
-               <th><input type="number" required placeholder="98...."></th>
-           </tr>
-           <tr>
-               <th>Message Us</th>
-               <th><textarea name="text" id="" placeholder="Type your Suggestions here"></textarea></th>
-           </tr>
-           <tr>
-                   <td></td>
-                   <th><input type="submit">
-                   </th>
-           </tr>
-       </table>
-</form>
-<section id="aboutus" >
-    <footer>
-        <hr>
-     <table border="0" width="100%">
-        <tr>
-            <th></th>
-            <th colspan="2"><h2>About Us </h2></th>
-            <th colspan="2"></th>
-        </tr>
-        <tr>
-            <th><ul>
-                <li>Name: Prakash Sapkota</li>
-                <li>Email: Sachinsapkota611@gmail.com</li>
-            </ul></th>
-            <th></th>
-            <th colspan="3"> Follow Us on Social Media</th>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td><a href="https://www.snapchat.com/"><img src="images/8380001.jpg" alt="" width="25%"></a></td>
-            <td><a href="https://www.whatsapp.com/"><img src="images/8380012.jpg" alt=""width="25%"></a></td>
-            <td><a href="https://www.facebook.com/"><img src="images/8379988.jpg" alt=""width="25%"></a></td>
-            
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td> <a href="https://github.com/prakashsapkota5"><img src="images/github omage.webp" alt="" width="30%"></a></td>
-            <td> <a href="https://discord.com/login"><img src="images/Discordimage.avif" alt=""width="25%"></a></td>
-        </tr>
-       
-     </table>
-          </footer>
-</section>
+    <section id="aboutus">
+        <footer>
+            <div class="footer">
+                <div class="footer-item">
+                    <ul>
+                        <li>Name: Prakash Sapkota</li>
+                        <li>Email: Sachinsapkota611@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2>Follow Us on Social Media</h2>
+                </div>
+                <div class="footer-item">
+                    <a href="https://www.snapchat.com/"><img src="images/8380001.jpg" alt="Snapchat" width="40"></a>
+                    <a href="https://www.whatsapp.com/"><img src="images/8380012.jpg" alt="Whatsapp" width="40"></a>
+                    <a href="https://www.facebook.com/"><img src="images/8379988.jpg" alt="Facebook" width="40"></a>
+                </div>
+                <div class="footer-item">
+                    <a href="https://github.com/prakashsapkota5"><img src="images/github omage.webp" alt="GitHub" width="40"></a>
+                    <a href="https://discord.com/login"><img src="images/Discordimage.avif" alt="Discord" width="40"></a>
+                </div>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>

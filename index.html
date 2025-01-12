@@ -4,52 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yatra</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <section id="menu">   <header>
-    <table width="100%" border="1" cellpadding="30" cellspacing="0">
-        <tr>
-    
-            <th><img src="images/mountain-climbing.png" alt="" height="80" width="80"></th>
-            <th><h3> <a href="#home">Home</a></h3></th>
-            <th> <h3> <a href="Trekking routes.html">Trekking Routes</a></h3></th>
-            <th><h3><a href="gearstore.html">Gear store</a></h3></th>
-            <th><h3><a href="contact.html">Contact Us</a></h3></th>
-            <th><h3><a href="#aboutus">About us</a></h3></th>
-            <th>        <button><img src="images/magnifying-glass.png" alt="" height="30"></button>
-                <input type="text" placeholder="search region,routes,gears" id="search"></th>
-        </tr>
-    
+ <section id="menu">   
+    <header>
+        <div class="header-table">
+            <div class="header-item">
+                <img src="images/mountain-climbing.png" alt="Logo" height="80" width="80">
+            </div>
+            <div class="header-item">
+                <h3><a href="index.html">Home</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="Trekkingroutes.html">Trekking Routes</a>
+                </h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="gearstore.html">Gear Store</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="contact.html">Contact Us</a></h3>
+            </div>
+            <div class="header-item">
+                <h3><a href="#aboutus">About Us</a></h3>
+            </div>
+            <div class="header-item">
+                <button><img src="magnifying-glass.png" alt="Search" height="30"></button>
+                <input type="text" placeholder="Search region, routes, gears" id="search">
+            </div>
+        </div>
     </header>
-    </table>
-   
 </section>
-<table border="0" width="100%">
-    <tr>
-        <th><h1>Explore!<br>The top of the Mountains.
-        </h1></th>
-    </tr>
-    
-</table>
+
+<div class="main-title">
+    <h1>Explore!<br>The top of the Mountains.</h1>
+</div>
+
 <video src="videos/index video.mp4" width="100%" autoplay loop></video>
 <a href="#menu"><img src="images/mountain-climbing.png" alt="" height="50" width="50"> </a>Go to the Main Menu
+
 <section id="home">
-    <table border="1"width ="100%">
-        <tr>
-            <th colspan="2"><h2><a href="Trekking routes.html">Treks by Season</a></h2></th>
-            <th colspan="2"><h2><a href="Trekking routes.html">Treks by Duration</a></h2></th>
-            <th colspan="2"><h2><a href="Trekking routes.html">Treks by Months</a></h2></th>
-        </tr>
-        <tr>
-            <td width="10%">
+    <div class="home-container">
+        <div class="treks-by-season">
+            <h2><a href="Trekking routes.html">Treks by Season</a></h2>
+            <div class="treks-list">
                 <ul>
-                <li><h2>Spring</h2></li>
-                <li><h2>Summer</h2></li>
-                <li><h2>Winter</h2></li>
-                 </ul>
-             </td>
-             <td><img src="images/seasons.png" alt="" width="75%" height="100%"></td>
-            <td width="10%">
+                    <li><h2>Spring</h2></li>
+                    <li><h2>Summer</h2></li>
+                    <li><h2>Winter</h2></li>
+                </ul>
+            </div>
+            <div class="treks-image">
+                <img src="images/seasons.png" alt="" width="75%" height="100%">
+            </div>
+        </div>
+
+        <div class="treks-by-duration">
+            <h2><a href="Trekking routes.html">Treks by Duration</a></h2>
+            <div class="treks-list">
                 <ul>
                     <li><h2>1 Day</h2></li>
                     <li><h2>2 Days</h2></li>
@@ -57,59 +70,52 @@
                     <li><h2>4 Days</h2></li>
                     <li><h2>5+ Days</h2></li>
                 </ul>
-            </td>
-            <td> <img src="images/duration.png" alt="" width="75%" height="100%"></td>
+            </div>
+            <div class="treks-image">
+                <img src="images/duration.png" alt="" width="75%" height="100%">
+            </div>
+        </div>
 
-            <td width="17%">
+        <div class="treks-by-months">
+            <h2><a href="Trekking routes.html">Treks by Months</a></h2>
+            <div class="treks-list">
                 <ul>
                     <li><h2>January-March</h2></li>
                     <li><h2>April-June</h2></li>
                     <li><h2>July-September</h2></li>
                     <li><h2>October-December</h2></li>
                 </ul>
-            </td>
-            <td><img src="images/monthly-calendar.png" alt="" width="75%" height="100%"></td>
-
-        </tr>
-        <tr>
-            
-        </tr>
-    </table>
+            </div>
+            <div class="treks-image">
+                <img src="images/monthly-calendar.png" alt="" width="75%" height="100%">
+            </div>
+        </div>
+    </div>
 </section>
-<section id="aboutus" >
+
+<section id="aboutus">
     <footer>
-        <hr>
-     <table border="0" width="100%">
-        <tr>
-            <th></th>
-            <th colspan="2"><h2>About Us </h2></th>
-            <th colspan="2"></th>
-        </tr>
-        <tr>
-            <th><ul>
-                <li>Name: Prakash Sapkota</li>
-                <li>Email: Sachinsapkota611@gmail.com</li>
-            </ul></th>
-            <th></th>
-            <th colspan="3"> Follow Us on Social Media</th>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td><a href="https://www.snapchat.com/"><img src="images/8380001.jpg" alt="" width="25%"></a></td>
-            <td><a href="https://www.whatsapp.com/"><img src="images/8380012.jpg" alt=""width="25%"></a></td>
-            <td><a href="https://www.facebook.com/"><img src="images/8379988.jpg" alt=""width="25%"></a></td>
-            
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td> <a href="https://github.com/prakashsapkota5"><img src="images/github omage.webp" alt="" width="30%"></a></td>
-            <td> <a href="https://discord.com/login"><img src="images/Discordimage.avif" alt=""width="25%"></a></td>
-        </tr>
-       
-     </table>
-          </footer>
+        <div class="footer">
+            <div class="footer-item">
+                <ul>
+                    <li>Name: Prakash Sapkota</li>
+                    <li>Email: Sachinsapkota611@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2>Follow Us on Social Media</h2>
+            </div>
+            <div class="footer-item">
+                <a href="https://www.snapchat.com/"><img src="images/8380001.jpg" alt="Snapchat" width="40"></a>
+                <a href="https://www.whatsapp.com/"><img src="images/8380012.jpg" alt="Whatsapp" width="40"></a>
+                <a href="https://www.facebook.com/"><img src="images/8379988.jpg" alt="Facebook" width="40"></a>
+            </div>
+            <div class="footer-item">
+                <a href="https://github.com/prakashsapkota5"><img src="images/github omage.webp" alt="GitHub" width="40"></a>
+                <a href="https://discord.com/login"><img src="images/Discordimage.avif" alt="Discord" width="40"></a>
+            </div>
+        </div>
+    </footer>
 </section>
 </body>
 </html>
